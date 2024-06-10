@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div id="set">
+    <h1>Hello burli here<h1>
+    <h3>enter your name below</h3>
+    <br>
+    <input id="inp" type="text">
+    <br><br>
+    <button  onclick="myfun()">click me</button>
+    <p id="parah"></p>
+</div>
+</body>
+
+
+<style>
+
+body{
+
+    background-color: gray;
+}
+
+#set
+{
+height: 25%;
+width: 12%;
+background-color: blueviolet;
+margin-left: 50%;
+}
+</style>
+
+
+<script>
+function myfun()
+{
+    let s=document.getElementById("inp").value;
+   alert("welcome "+s);
+   
+}
+
+</script>
+
+</html>
